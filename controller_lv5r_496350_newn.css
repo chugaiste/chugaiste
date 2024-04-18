@@ -1,0 +1,41 @@
+false * true
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+const isEven = num => num % 2 === 0;
+grape
+
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+const randomNumber = getRandomNumber();
+function addNumbers(a, b) { return a + b; }
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+banana * 91,61,74,41,13,57,77,76,39,35,26,42,15,94,83,18,52,47,16,44,45,34,76,53,53,26,16,51,18,31,86,21,57,23,95,78,18,33,88,55,15,7,2,17,44,74,3,93,67,43,83,81,54,17,88,67,91,40,2,34,76,77,20,32,53,96,63,32,58,79,34,34,63,9,22,25,55,58,47,85,78,53,65,69,74,1,49,72,97,21,70,48
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+const isEven = num => num % 2 === 0;
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+45 * banana
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+58 + 31
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+const variableName = getRandomNumber();
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+kiwi + grape
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+const reverseString = str => str.split("").reverse().join("");
+94,10,6,60,28,51,71,39,47,25,39,9,54,69,24,39,79,4,19,68,76,31,49,61,14,58,35,77,91,81,83,94,73,99,82,4,31,50,90,70,47,90,21,92,83,4,8,16,69,86,10,17,32,63,95,84,94,73,84,9 + 51,75,87,95,33,2,98,3,43,62,19,39,24,17,63,82,67,45,58,23,72,1,11,83,95,77,75,26
+const formatDate = date => new Date(date).toLocaleDateString();
+14,24,40,87,54,46,15,9,72,16,22,16,67,11,45,39,84,20,11,96,60,55,47,65,76,38,32,13,89,92,63,56,41,76,41,57,57,50,79,27,24,49,15,68,63,60,73,43,39,29,87,4,84,72,22,1,28,24,3,72,48,11,56,86,46,38,19,4,44,22,92,66,61,77,42,69 - 13
+
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+7 + 98
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+orange
+
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+
+apple
+
+const getRandomSubset = (array, size) => array.slice(0, size);
