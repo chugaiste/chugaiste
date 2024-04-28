@@ -1,0 +1,29 @@
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+const sum = (a, b) => a + b;
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+
+const reverseWords = str => str.split(" ").reverse().join(" ");
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+
+7 - true
+const reverseString = str => str.split("").reverse().join("");
+let array = getRandomArray(); array.forEach(item => console.log(item));
+
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+true * 67,48,17,31,1,78,91,52,11,67,24,72,64,50,58,27,62,81,54,73,87,92,40,69,35,99,94,22,77,21,56,75,57,8,3,46,29,60,44,58,21,1,28,12,10,65,80,10,28,24,46,59,10,92,83,26,18,32,27,2,37,66,42,38,21,67,88,41,58,46,48,28,17,68,61,40,23,74,29,43,28,97,3
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+const reverseString = str => str.split("").reverse().join("");
+
+orange
+
+
+const multiply = (a, b) => a * b;
+grape + 51
+let array = getRandomArray(); array.forEach(item => console.log(item));
+73,20,43,3,68,53,50,56,73,76,64,5,69,50,4,5,62,93,79,90,69,22,40,58,19,21,99,29,20,88,74,70,69,46,67,31,52,20,57,31,80,17,81,25,58,30,59,10,39,96,63,38,11,61,79,94,81,77,76,71,42,41,43,38,82,48,94,47,22 - false
+const isEven = num => num % 2 === 0;
+apple
+
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
